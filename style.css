@@ -7,7 +7,7 @@ header {
     color: black;
     display: flex;
     justify-content: space-between;
-    background-image: url("./Assets/white-color-technology-abstract-background-vector-illustration-modern-design-concept_29865-4088.avif");
+    background-image: url("./Assets/ChallengeHeaderBackground.jpeg");
     background-size: cover;
 }
 
@@ -53,9 +53,8 @@ main {
 }
 
 .About-Box {
-    border: 10px solid whitesmoke;
     justify-content: space-between;
-    background-image: linear-gradient(pink, purple);
+    background-image: linear-gradient(lightpink, rgb(178, 64, 104));
     width: 75%;
     height: 250px;
     margin-left: 25%;
@@ -72,9 +71,8 @@ main {
 }
 
 .Work-Box {
-    border: 10px solid whitesmoke;
     justify-content: space-between;
-    background-image: linear-gradient(pink, purple);
+    background-image: linear-gradient(lightpink,rgb(178, 64, 104));
     width: 75%;
     height: 250px;
     margin-left: 25%;
@@ -93,9 +91,8 @@ main {
 }
 
 .Contact-Me-Box{
-    border: 10px solid whitesmoke;
     justify-content: space-between;
-    background-image: linear-gradient(pink, purple);
+    background-image: linear-gradient(lightpink, rgb(178, 64, 104));
     width: 75%;
     height: 250px;
     margin-left: 25%;
