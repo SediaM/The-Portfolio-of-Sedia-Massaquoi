@@ -1,0 +1,140 @@
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    padding: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("./Assets/white-color-technology-abstract-background-vector-illustration-modern-design-concept_29865-4088.avif");
+    background-size: cover;
+}
+
+header h1 {
+    display: block;
+    font-size: 48px;
+}
+
+header nav {
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    position: relative;
+    bottom: 25px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    display: block;
+    margin-left: 25px;
+}
+
+a {
+    color: black;
+    text-decoration-line: underline;
+}
+
+p {
+    font-size: 16px;
+    margin: 50px;
+    
+}
+
+main {
+    flex-wrap: wrap;
+}
+
+.About-Me {
+    justify-content: space-between;
+}
+
+.About-Box {
+    border: 10px solid whitesmoke;
+    justify-content: space-between;
+    background-image: linear-gradient(pink, purple);
+    width: 75%;
+    height: 250px;
+    margin-left: 25%;
+    margin-right: 70px;
+}
+
+.About-Me h2 {
+    margin-left: 10px;
+    font-size: 36px;
+}
+
+.About-Me img {
+    margin-right: 10px;
+}
+
+.Work-Box {
+    border: 10px solid whitesmoke;
+    justify-content: space-between;
+    background-image: linear-gradient(pink, purple);
+    width: 75%;
+    height: 250px;
+    margin-left: 25%;
+    margin-right: 70px;
+}
+
+.Work h2 {
+    margin-left: 10px;
+    font-size: 36px;
+}
+
+.Contact-Me {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-Me-Box{
+    border: 10px solid whitesmoke;
+    justify-content: space-between;
+    background-image: linear-gradient(pink, purple);
+    width: 75%;
+    height: 250px;
+    margin-left: 25%;
+    margin-right: 70px;
+}
+
+.Contact-Me h2 {
+    margin-left:10px;
+    font-size: 36px;
+}
+
+.About-Me img {
+    max-width: 25%;
+    position: relative;
+    
+}
+
+.Work img {
+    max-width: 18%;
+    margin-left: 50px;
+}
+
+button:active {
+    box-shadow: 0 0 15px #000 inset;
+    max-width: 5%;
+  }
+
+.Contact-Me p {
+    text-align: center;
+    display:list-item;
+    list-style: none;
+
+}
+
+@media screen and (max-width: 576px) {
+    main {
+      background-color: whitesmoke
+    }
+  }
+
+
+
