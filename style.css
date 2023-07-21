@@ -97,6 +97,8 @@ main {
     height: 250px;
     margin-left: 25%;
     margin-right: 70px;
+    margin-top: 150px;
+
 }
 
 .Contact-Me h2 {
@@ -116,8 +118,10 @@ main {
 }
 
 button:active {
-    box-shadow: 0 0 15px #000 inset;
-    max-width: 5%;
+    box-shadow: 0 0 10px #000 inset;
+    width:10px;
+    height:10px;
+    display: inline-block;
   }
 
 .Contact-Me p {
